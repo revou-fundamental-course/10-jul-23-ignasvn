@@ -1,0 +1,161 @@
+/* Base styles for all devices */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* Add specific styles for extra small devices */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* Add specific styles for small devices */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* Add specific styles for medium devices */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* Add specific styles for large devices */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* Add specific styles for extra large devices */
+}
+
+.page {
+  margin: 1px 3% 10px 3%;
+}
+.page1 {
+  width: 47%;
+  float: left;
+}
+.page2 {
+  width: 47%;
+  float: right;
+}
+
+h1 {
+  font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+h2 {
+  font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+p {
+  text-align: justify;
+  font-size: 17px;
+  font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Form */
+.form1 {
+  background-color: #f0f0f0;
+  margin: auto;
+  padding: 20px 20px 20px 20px;
+  /* border-style: groove; */
+}
+.jk {
+  font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+}
+.bb {
+  font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+}
+.usia {
+  font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+}
+.tb {
+  font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+}
+.inputbb {
+  margin: 5px 0px 0px 0px;
+  width: 93%;
+  height: 30px;
+  font-size: 18px;
+  border: none ;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.inputu {
+  margin: 5px 0px 0px 0px;
+  width: 93%;
+  height: 30px;
+  font-size: 18px;
+  border: none;
+}
+.inputtb {
+  margin: 5px 0px 0px 0px;
+  width: 93%;
+  height: 30px;
+  font-size: 18px;
+  border: none;
+}
+.style1 {
+  width: 100%;
+  display: flex;
+}
+
+.fa.fa-pencil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  margin: 5px 0px 0px 0px;
+  width: 5%;
+  height: auto;
+  background-color: grey;
+  opacity: 50%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* Tombol Button */
+.button{
+  display: flex;
+  gap: 10px;
+}
+
+.button-submit{
+  background-color: rgb(0, 190, 248);
+  width: 100px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+}
+.button-submit:hover,
+.button-submit:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-riset{
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  border-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.button-riset:hover,
+.button-riset:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
